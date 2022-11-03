@@ -1,16 +1,16 @@
-var x=13;
-var count=0;
-for(var i=1;var<=13;i++){
-if(x%i===0){
-count++;
-}
-}
-if(count==2){
-console.log("prime");
-}
-else{
-console.log("not a prime");
-}
-
 
 // Prime code
+let num=17;
+let count=0;
+for(let i=2; i<num; i++)
+{
+if(num%i===0)
+{
+count++
+}
+}if(count>0)
+{
+console.log("Not a Prime");
+}else {
+console.log("Prime");
+}
